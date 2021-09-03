@@ -1,0 +1,45 @@
+.center {
+    display: flex;
+    justify-content: center;
+    border-radius: 7px;
+}
+
+.c2 {
+    align-items: center;
+}
+
+.back {
+    background-color:#556;
+background-image: linear-gradient(30deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),
+linear-gradient(150deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),
+linear-gradient(30deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),
+linear-gradient(150deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),
+linear-gradient(60deg, #99a 25%, transparent 25.5%, transparent 75%, #99a 75%, #99a),
+linear-gradient(60deg, #99a 25%, transparent 25.5%, transparent 75%, #99a 75%, #99a);
+background-size:80px 140px;
+background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
+    width: 600px;
+    height: 60px;
+}
+
+.url {
+    width: 350px;
+    height: 30px;
+    border-top-left-radius:5px ;
+    border-bottom-left-radius: 5px ;
+    border: none;
+}
+
+.det {
+    width: 150px;
+    height: 30px;
+    border-top-right-radius:5px ;
+    border-bottom-right-radius: 5px ;
+    border: none;
+    background-color: #99a;
+    color:white
+}
+
+.cen2 {
+    flex-direction: row;
+  }
